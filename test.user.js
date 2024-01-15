@@ -1,15 +1,18 @@
 // ==UserScript==
 // @name         京东E卡管理器
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/OreoProMax/test
 // @version      1.0
 // @description  在京东下单时快捷选择E卡
-// @author       OreoProMax
-// @match        https://trade.jd.com/*
 // @icon         https://www.jd.com/favicon.ico
-// @resource     pureCss https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css
-// @require      https://cdn.jsdelivr.net/npm/sweetalert2@11
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
+// @author       OreoProMax
+// @require      https://cdn.jsdelivr.net/npm/sweetalert2@11
+// @resource     pureCss https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css
+// @match        https://trade.jd.com/*
+// @updateURL        https://github.com/OreoProMax/test/raw/main/test.user.js
+// @downloadURL        https://github.com/OreoProMax/test/raw/main/test.user.js
+// @supportURL        https://github.com/OreoProMax/test/issues
 // ==/UserScript==
 
 (function() {
